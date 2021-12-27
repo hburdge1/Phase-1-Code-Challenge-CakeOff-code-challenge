@@ -24,7 +24,7 @@ function fetchCakes() {
         .then(data => renderInfo(cakeId, data))
         
         }
-        function renderInfo(cakeId, data) {
+    function renderInfo(cakeId, data) {
           
             data.forEach(yum => {
                 if(yum.id == cakeId) {
@@ -36,14 +36,16 @@ function fetchCakes() {
                      descripP.innerHTML = yum.description
 
                     const reviewP = document.querySelector('#review-list')
-                    const intRev = document.createElement('li')
-                    intRev.innerHTML = yum.reviews
-                    reviewP.appendChild(intRev)
-                }})
+                    const reviewEach = data.querySelector("reviews")
+                    reviewEach.forEach(review => {
+                      const intRev = document.createElement('li')
+                      intRev.innerHTML = `${review}`
+                      reviewP.appendChild(intRev)
+            })}})   
             }
 
     const form = document.querySelector("#review-form");
-        form.addEventListener('submit', function (event){
+        form.addEventListener('submit', function(event){
             event.preventDefault();
             const list = document.querySelector("#review-list")
             let li = document.createElement('li')
@@ -53,8 +55,11 @@ function fetchCakes() {
 
         })
        
-       
+    function getFirstCake(){
+        const first = document.querySelector("#id = 1")
+        console.log(first)
+    }
+
 document.addEventListener('DOMContentLoaded', function() {
             fetchCakes();
             })       
-           
