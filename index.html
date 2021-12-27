@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fantastic Flatiron Cake Off</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans:400,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <script defer type="text/javascript" src="src/index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Fantastic Flatiron Cake Off</h1>
+      <nav>
+        <ul id="cake-list">
+
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="cake-details">
+        <h2 id="cake-name">Cake Name Goes Here</h2>
+        <img
+          id="cake-image"
+          alt="Cake Name Goes Here"
+          src="assets/image-placeholder.jpg"
+        />
+        <p>
+          <em id="cake-description">Cake Description Goes Here</em>
+        </p>
+
+        <form id="description-form">
+          <label for="description">Edited Description:</label>
+          <textarea id="description"></textarea>
+          <button type="submit">Update Cake</button>
+        </form>
+
+        <h3>Customer Reviews</h3>
+        <ul id="review-list">
+      
+        </ul>
+        <form id="review-form">
+          <label for="review">Your Review:</label>
+          <textarea id="review"></textarea>
+          <button type="submit">Add review</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

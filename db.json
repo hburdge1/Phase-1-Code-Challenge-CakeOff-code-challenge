@@ -1,0 +1,94 @@
+{
+  "cakes": [
+    {
+      "id": 1,
+      "name": "Let It Drip",
+      "description": "Quadruple chocolate cake just drip drip dripping in flavor!",
+      "image_url": "https://curriculum-content.s3.amazonaws.com/phase-1/phase-1-code-challenge-cake-off/let-it-drip-cake.jpg",
+      "reviews": [
+        "Yummy Yummy Yummy!",
+        "Is this a real cake, or is this just fantasy?",
+        "I've always hated cakes with no flavor, so this is absolutely delightful.",
+        "Best cake ever!! I love you!!!"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "My Cake is Poppin, My Cake is Cool",
+      "description": "My Cake is Poppin, My Cake is Cool is elegant, refined, assured, tasty... This cake shows that fruit cakes do have some soul, and is a fruity riot of blackberries, pears, and plums. Reminds me of the bramble, apple and ginger jam my grandmother used to make.",
+      "image_url": "https://curriculum-content.s3.amazonaws.com/phase-1/phase-1-code-challenge-cake-off/popcorn-cake.jpg",
+      "reviews": [
+        "Lil Mama's fav cake!!!",
+        "Like a river of joy"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Fruit Salad Fingers",
+      "description": "An epic experiment!",
+      "image_url": "https://curriculum-content.s3.amazonaws.com/phase-1/phase-1-code-challenge-cake-off/fruit-salad-cake.jpg",
+      "reviews": ["Spicy fruit cakes, say what?!", "My mum hates it"]
+    },
+    {
+      "id": 4,
+      "name": "Winter Wonderland",
+      "description": "Tastes like memories",
+      "image_url": "https://curriculum-content.s3.amazonaws.com/phase-1/phase-1-code-challenge-cake-off/winter-wonderland-cake.jpg",
+      "reviews": ["I remember nothing"]
+    },
+    {
+      "id": 5,
+      "name": "Uh Oh! Which Way's Up?",
+      "description": "Upside down, or right side up??",
+      "image_url": "https://curriculum-content.s3.amazonaws.com/phase-1/phase-1-code-challenge-cake-off/uhoh-upside-down-cake.jpg",
+      "reviews": [
+        "I lost my pet squirrel to this cake",
+        "This cake gave me VERTIGO!!"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Strawberry Fields 4ever",
+      "description": "& ever & ever & ever",
+      "image_url": "https://curriculum-content.s3.amazonaws.com/phase-1/phase-1-code-challenge-cake-off/strawberry-fields-forever-cake.jpg",
+      "reviews": [
+        "I like to eat this while watching TV",
+        "A cake like no other, best served hot"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Starry Bright",
+      "description": "Shine bright like a diamond.",
+      "image_url": "https://curriculum-content.s3.amazonaws.com/phase-1/phase-1-code-challenge-cake-off/starry-bright-layered-cake.jpg",
+      "reviews": ["Tastes like a weird squid"]
+    },
+    {
+      "id": 8,
+      "name": "Oreo Overload",
+      "description": "Live dangerously with this overload!",
+      "image_url": "https://curriculum-content.s3.amazonaws.com/phase-1/phase-1-code-challenge-cake-off/oreo-overload-cake.jpg",
+      "reviews": [
+        "Woe is me, how I long for the days of yore",
+        "Reminds me of that time I wasted all of my time"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Gingerbread Cakes are Better than All",
+      "description": "Running the knife-edge between a house and a home... this particular style is one we truly love. Gingerbread cakes are a great showcase for the skill of our baking team, balancing so many complex and twisting flavours in the same moment.",
+      "image_url": "https://curriculum-content.s3.amazonaws.com/phase-1/phase-1-code-challenge-cake-off/ginger-bread-cake.jpg",
+      "reviews": ["Pew pew"]
+    },
+    {
+      "id": 10,
+      "name": "Chocolate Sparkler",
+      "description": "A deliciously robust, black malted cake with a decadent dark, dry cocoa flavour that provides an enticing backdrop to the other parts of the cake.",
+      "image_url": "https://curriculum-content.s3.amazonaws.com/phase-1/phase-1-code-challenge-cake-off/chocolate-sparkler-cake.jpg",
+      "reviews": [
+        "Like autumn leaves readying themselves for the winter sun",
+        "Beep beep, you're having a cake"
+      ]
+    }
+  ]
+}
